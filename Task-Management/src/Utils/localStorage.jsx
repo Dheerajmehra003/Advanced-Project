@@ -14,7 +14,8 @@ const employees = [
         failed: false,
         title: "Design Homepage",
         description: "Create a mockup for the new homepage layout.",
-        category: "Design"
+        category: "Design",
+        date: "2024-10-01"
       },
       {
         acceptedTask: true,
@@ -23,7 +24,8 @@ const employees = [
         failed: false,
         title: "Fix CSS Bugs",
         description: "Resolve CSS issues on the site.",
-        category: "Web"
+        category: "Web",
+        date: "2024-10-02" 
       },
       {
         acceptedTask: false,
@@ -32,7 +34,8 @@ const employees = [
         failed: false,
         title: "SEO Audit",
         description: "Conduct a full SEO audit of the website.",
-        category: "Other"
+        category: "Other",
+        date: "2024-09-15" 
       }
     ],
     taskCounts: {
@@ -55,7 +58,8 @@ const employees = [
         failed: false,
         title: "User Testing",
         description: "Conduct user testing sessions for the new feature.",
-        category: "Other"
+        category: "Other",
+        date: "2024-10-03" 
       },
       {
         acceptedTask: true,
@@ -64,7 +68,8 @@ const employees = [
         failed: false,
         title: "Update Documentation",
         description: "Update the user manual for the latest version.",
-        category: "Web"
+        category: "Web",
+        date: "2024-10-04" 
       },
       {
         acceptedTask: false,
@@ -73,7 +78,8 @@ const employees = [
         failed: true,
         title: "Create Logo Variations",
         description: "Design different variations of the new logo.",
-        category: "Design"
+        category: "Design",
+        date: "2024-10-05" 
       }
     ],
     taskCounts: {
@@ -96,7 +102,8 @@ const employees = [
         failed: false,
         title: "Website Maintenance",
         description: "Perform routine maintenance on the website.",
-        category: "Web"
+        category: "Web",
+        date: "2024-10-06" 
       },
       {
         acceptedTask: false,
@@ -105,7 +112,8 @@ const employees = [
         failed: false,
         title: "Create Social Media Graphics",
         description: "Design graphics for upcoming social media campaigns.",
-        category: "Design"
+        category: "Design",
+        date: "2024-09-20" 
       },
       {
         acceptedTask: false,
@@ -114,7 +122,8 @@ const employees = [
         failed: true,
         title: "Analytics Review",
         description: "Review website analytics and prepare a report.",
-        category: "Other"
+        category: "Other",
+        date: "2024-10-07" 
       }
     ],
     taskCounts: {
@@ -137,7 +146,8 @@ const employees = [
         failed: false,
         title: "Develop New Feature",
         description: "Implement the new feature as per the specifications.",
-        category: "Web"
+        category: "Web",
+        date: "2024-10-08" 
       },
       {
         acceptedTask: false,
@@ -146,7 +156,8 @@ const employees = [
         failed: false,
         title: "Debug Existing Code",
         description: "Fix bugs in the existing codebase.",
-        category: "Web"
+        category: "Web",
+        date: "2024-10-09" 
       },
       {
         acceptedTask: false,
@@ -155,7 +166,8 @@ const employees = [
         failed: false,
         title: "Prepare Presentation",
         description: "Create a presentation for the upcoming meeting.",
-        category: "Other"
+        category: "Other",
+        date: "2024-10-10" 
       }
     ],
     taskCounts: {
@@ -178,7 +190,8 @@ const employees = [
         failed: false,
         title: "Research Trends",
         description: "Conduct research on current design trends.",
-        category: "Design"
+        category: "Design",
+        date: "2024-09-30" 
       },
       {
         acceptedTask: false,
@@ -187,7 +200,8 @@ const employees = [
         failed: false,
         title: "Update Website Content",
         description: "Revise the website content for accuracy.",
-        category: "Web"
+        category: "Web",
+        date: "2024-09-29" 
       },
       {
         acceptedTask: false,
@@ -196,7 +210,8 @@ const employees = [
         failed: false,
         title: "Create Newsletter",
         description: "Design and write the content for the monthly newsletter.",
-        category: "Other"
+        category: "Other",
+        date: "2024-09-28" 
       }
     ],
     taskCounts: {
@@ -207,6 +222,7 @@ const employees = [
     }
   }
 ];
+
  
   const admin = [
     {

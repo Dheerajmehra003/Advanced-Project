@@ -10,7 +10,7 @@ const FailedTask = () => {
        <h2 className='mt-5 font-semibold text-2xl'>Task Four</h2>
         <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni expedita quas ipsa illo ipsam.</p>
         <div className='flex justify-between mt-4'>
-          <button className='bg-red-500 w-full py-1 px-2 text-sm'>Failed</button>
+          <button className='bg-red-500  py-1 px-2 text-sm'>Failed</button>
        </div>
   </div>  
   )

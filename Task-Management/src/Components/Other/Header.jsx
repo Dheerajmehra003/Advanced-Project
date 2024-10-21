@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Header = ({data}) => {
+const Header = (props) => {
+
+  const [Username, setUserName] = useState('')
+
+  // if(props.data.admin){
+  //   const user = 'admin'
+  //   setUserName(user)
+  // }
 
   const loggedOutUser = () => {
    localStorage.setItem('loggedInUser', '')
-   window.location.reload()
+  //  window.location.reload()
+  props.changeUser('')
   }
   return (
     <div className='flex items-end justify-between'>
