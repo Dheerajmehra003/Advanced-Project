@@ -1,4 +1,4 @@
-localStorage.clear()
+// localStorage.clear()
 
 const employees = [
   {
@@ -8,7 +8,7 @@ const employees = [
     password: "123",
     tasks: [
       {
-        acceptedTask: true,
+        acceptedTask: false,
         newTask: true,
         completed: false,
         failed: false,
@@ -19,7 +19,7 @@ const employees = [
       {
         acceptedTask: true,
         newTask: false,
-        completed: true,
+        completed: false,
         failed: false,
         title: "Fix CSS Bugs",
         description: "Resolve CSS issues on the site.",
@@ -28,18 +28,18 @@ const employees = [
       {
         acceptedTask: false,
         newTask: false,
-        completed: false,
-        failed: true,
+        completed: true,
+        failed: false,
         title: "SEO Audit",
         description: "Conduct a full SEO audit of the website.",
         category: "Other"
       }
     ],
     taskCounts: {
-      acceptedTask: 2,
+      acceptedTask: 1,
       newTask: 1,
       completed: 1,
-      failed: 1
+      failed: 0
     }
   },
   {
@@ -49,7 +49,7 @@ const employees = [
     password: "123",
     tasks: [
       {
-        acceptedTask: true,
+        acceptedTask: false,
         newTask: true,
         completed: false,
         failed: false,
@@ -69,18 +69,18 @@ const employees = [
       {
         acceptedTask: false,
         newTask: false,
-        completed: true,
-        failed: false,
+        completed: false,
+        failed: true,
         title: "Create Logo Variations",
         description: "Design different variations of the new logo.",
         category: "Design"
       }
     ],
     taskCounts: {
-      acceptedTask: 2,
+      acceptedTask: 1,
       newTask: 1,
-      completed: 1,
-      failed: 0
+      completed: 0,
+      failed: 1
     }
   },
   {
@@ -91,7 +91,7 @@ const employees = [
     tasks: [
       {
         acceptedTask: true,
-        newTask: true,
+        newTask: false,
         completed: false,
         failed: false,
         title: "Website Maintenance",
@@ -99,9 +99,9 @@ const employees = [
         category: "Web"
       },
       {
-        acceptedTask: true,
+        acceptedTask: false,
         newTask: false,
-        completed: false,
+        completed: true,
         failed: false,
         title: "Create Social Media Graphics",
         description: "Design graphics for upcoming social media campaigns.",
@@ -119,8 +119,8 @@ const employees = [
     ],
     taskCounts: {
       acceptedTask: 2,
-      newTask: 1,
-      completed: 0,
+      newTask: 0,
+      completed: 1,
       failed: 1
     }
   },
@@ -131,7 +131,7 @@ const employees = [
     password: "123",
     tasks: [
       {
-        acceptedTask: true,
+        acceptedTask: false,
         newTask: true,
         completed: false,
         failed: false,
@@ -140,9 +140,9 @@ const employees = [
         category: "Web"
       },
       {
-        acceptedTask: true,
-        newTask: false,
-        completed: true,
+        acceptedTask: false,
+        newTask: true,
+        completed: false,
         failed: false,
         title: "Debug Existing Code",
         description: "Fix bugs in the existing codebase.",
@@ -150,19 +150,19 @@ const employees = [
       },
       {
         acceptedTask: false,
-        newTask: false,
+        newTask: true,
         completed: false,
-        failed: true,
+        failed: false,
         title: "Prepare Presentation",
         description: "Create a presentation for the upcoming meeting.",
         category: "Other"
       }
     ],
     taskCounts: {
-      acceptedTask: 2,
-      newTask: 1,
-      completed: 1,
-      failed: 1
+      acceptedTask: 0,
+      newTask: 3,
+      completed: 0,
+      failed: 0
     }
   },
   {
@@ -172,18 +172,18 @@ const employees = [
     password: "123",
     tasks: [
       {
-        acceptedTask: true,
-        newTask: true,
-        completed: false,
+        acceptedTask: false,
+        newTask: false,
+        completed: true,
         failed: false,
         title: "Research Trends",
         description: "Conduct research on current design trends.",
         category: "Design"
       },
       {
-        acceptedTask: true,
+        acceptedTask: false,
         newTask: false,
-        completed: false,
+        completed: true,
         failed: false,
         title: "Update Website Content",
         description: "Revise the website content for accuracy.",
@@ -200,9 +200,9 @@ const employees = [
       }
     ],
     taskCounts: {
-      acceptedTask: 2,
-      newTask: 1,
-      completed: 1,
+      acceptedTask: 3,
+      newTask: 0,
+      completed: 3,
       failed: 0
     }
   }

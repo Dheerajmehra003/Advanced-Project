@@ -1,6 +1,9 @@
 import React from 'react'
 
-const CreateTask = () => {
+const CreateTask = () => { 
+    const submitHandler = () => {
+      
+    }
   return (
     
     <div className='p-5 bg-[#1C1C1C] mt-7 rounded'>
