@@ -4,6 +4,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 const Features = () => {
    const [hovering, setHovering] = useState('')
+   const [secondCard, setSecondCard] = useState(" ")
   return (
     <div className='w-full py-10 '>
         <div className='w-full px-10 border-b-[1px] pb-10 '>
@@ -16,9 +17,9 @@ const Features = () => {
              onMouseLeave={()=>setHovering(false)}
             className="cardContainer relative w-1/2 h-[75vh] ">
              <h1 className='absolute  overflow-hidden left-[100vh] top-1/2 -translate-x-1/2 -translate-y-1/2 uppercase z-[9] text-8xl font-["Foounders GroTesk"] tracking-tighter  whitespace-nowrap font-bold  leading-none text-[#CDEA68] '>
-             {'CARDBOARD-SPACESHIP'.split('').map((item, index)=>{
+             {'CARDBOARD'.split('').map((item, index)=>{
                 return(
-                    <motion.span initial={{y: "100%"}}
+                    <motion.span key={index} initial={{y: "100%"}}
                     animate={hovering ? {y:'0'} : {y:'100%'}}
                     transition={{ease:[0.22, 1, 0.36, 1], delay: index*.06}}
                     className='inline-block'>{item}</motion.span>
@@ -30,14 +31,14 @@ const Features = () => {
              </div>
             </div>
             <div
-             onMouseEnter={()=>setHovering(true)}
-             onMouseLeave={()=>setHovering(false)}
+             onMouseEnter={()=>setSecondCard(true)}
+             onMouseLeave={()=>setSecondCard(false)}
             className="cardContainer relative w-1/2 h-[75vh] ">
             <h1 className='absolute overflow-hidden right-2/3 top-1/2 translate-x-1/2 -translate-y-1/2 uppercase z-[9] text-8xl font-["Foounders GroTesk"] tracking-tighter w-full whitespace-nowrap font-bold  leading-none text-[#CDEA68] '>
             {'FYDE'.split('').map((item, index)=>{
                 return(
-                  <motion.span initial={{y: "100%"}}
-                  animate={hovering ? {y:'0'} : {y:'100%'}}
+                  <motion.span key={index} initial={{y: "100%"}}
+                  animate={secondCard ? {y:'0'} : {y:'100%'}}
                   transition={{ease:[0.22, 1, 0.36, 1], delay: index*.06}}
                   className='inline-block'>{item}</motion.span>
                 )

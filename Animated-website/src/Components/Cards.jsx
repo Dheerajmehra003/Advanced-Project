@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div className=' flex gap-5 items-center w-full h-screen px-20 bg-zinc-900'>
+    <div  className=' flex gap-5 items-center w-full h-screen px-20 bg-zinc-900'>
         <div className='cardContainer h-[60vh] w-1/2'>
            <div className="card relative w-full h-full bg-[#004D43] rounded-lg flex items-center justify-center">
             <img className='w-32 ' src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="" />
