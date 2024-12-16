@@ -10,6 +10,7 @@ import SaveJob from '@/Pages/SaveJob'
 import MyJob from '@/Pages/MyJob'
 import './App.css'
 import { ThemeProvider } from './components/ui/Theme-Provider'
+import Onboarding from './Pages/Onboarding'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
         {
           path:'/',
           element: <LandingPage />
+        },
+        {
+          path:'/onboarding',
+          element: <Onboarding/>
         },
         {
           path:'/jobs',
