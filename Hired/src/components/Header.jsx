@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import logo from "../../assets/hiddencopy.jpeg";
 import { Button } from "./ui/button";
 import {
   SignedIn,
